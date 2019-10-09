@@ -1,0 +1,38 @@
+{
+  "name": "battleships-react",
+  "version": "0.0.1",
+  "main": "index.html",
+  "scripts": {
+    "start": "npm run clean && cross-env NODE_ENV=development node devServer",
+    "build": "npm run clean && cross-env NODE_ENV=production webpack",
+    "clean": "rimraf build/*",
+    "tslint": "npx tslint --format stylish --project ./"
+  },
+  "dependencies": {
+    "react": "^16.10.1",
+    "react-dom": "^16.10.1",
+    "styled-components": "4.4.0"
+  },
+  "devDependencies": {
+    "@types/react": "^16.9.3",
+    "@types/react-dom": "^16.9.1",
+    "@types/styled-components": "4.1.8",
+    "awesome-typescript-loader": "^5.2.1",
+    "cross-env": "^6.0.3",
+    "css-loader": "^3.2.0",
+    "file-loader": "^4.2.0",
+    "html-webpack-plugin": "^4.0.0-beta.3",
+    "mini-css-extract-plugin": "^0.8.0",
+    "rimraf": "^3.0.0",
+    "sass-loader": "^8.0.0",
+    "style-loader": "^1.0.0",
+    "terser-webpack-plugin": "^2.1.2",
+    "tslint": "^5.20.0",
+    "typescript": "^3.6.3",
+    "webpack": "^4.41.0",
+    "webpack-bundle-analyzer": "^3.5.2",
+    "webpack-cli": "^3.3.9",
+    "webpack-config": "^7.5.0",
+    "webpack-dev-server": "^3.8.1"
+  }
+}

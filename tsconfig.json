@@ -1,0 +1,22 @@
+{
+  "compilerOptions": {
+    "outDir": "./build/",
+    "sourceMap": true,
+    "noImplicitAny": false,
+    "module": "esnext",
+    "moduleResolution": "node",
+    "target": "es5",
+    "jsx": "react",
+    "allowJs": true,
+    "alwaysStrict": true,
+    "forceConsistentCasingInFileNames": true,
+    "strictNullChecks": true,
+    "pretty": true,
+    "noUnusedParameters": false,
+    "noImplicitReturns": true,
+    "noImplicitThis": true,
+    "noUnusedLocals": true,
+    "lib": ["dom", "es7"]
+  },
+  "include": ["./src/**/*"]
+}
